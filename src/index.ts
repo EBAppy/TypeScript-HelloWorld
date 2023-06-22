@@ -41,7 +41,7 @@ type Resizable = {
 
 type UIWidget = Draggable & Resizable;
 
-//decalring an object Textbox wgich will implement all the methofds
+//decalring an object Textbox which will implement all the methods
 let textBox: UIWidget = {
   drag() {
     this.drag();
